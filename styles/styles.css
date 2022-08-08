@@ -773,6 +773,7 @@ img {
   width: 100%;
   height: 40px;
   padding-left: 45px;
+  margin-bottom: 10px;
   outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -820,7 +821,7 @@ img {
   width: 16px;
   height: 15px;
   margin-right: 7px;
-  background-image: url(./img/chekbox-off.svg);
+  background-image: url(/img/chekboxoff.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   cursor: pointer;
@@ -828,7 +829,7 @@ img {
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
-  background-image: url(./img/chekbox-on.svg);
+  background-image: url(/img/chekboxon.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
