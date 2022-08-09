@@ -454,7 +454,10 @@ img {
 .footer-wraper {
   display: flex;
   align-items: baseline;
-  gap: 70px;
+}
+
+.address-wraper {
+  flex-grow: 1;
 }
 
 .logo-footer {
@@ -497,7 +500,7 @@ img {
 .join {
   display: flex;
   flex-direction: column;
-  width: 206px;
+  margin-left: 70px;
 }
 
 .join-title {
@@ -515,6 +518,9 @@ img {
   fill: var(--primari-white-color);
 }
 
+.footer-subscription {
+  margin-left: 93px;
+}
 .footer-subscription-title {
   display: block;
   margin-bottom: 20px;
