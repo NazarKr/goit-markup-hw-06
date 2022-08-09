@@ -822,7 +822,7 @@ img {
   width: 16px;
   height: 15px;
   margin-right: 7px;
-  background-image: url("./img/chekbox-off.svg");
+  background-image: url("../img/chekbox-off.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   cursor: pointer;
@@ -830,7 +830,7 @@ img {
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
-  background-image: url("./img/chekbox-on.svg");
+  background-image: url("../img/chekbox-on.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
